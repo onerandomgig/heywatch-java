@@ -6,6 +6,11 @@
   <name>HeyWatch Java library</name>
   <description>Encode videos in the cloud with HeyWatch</description>
   <url>http://www.heywatchencoding.com</url>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
   <licenses>
     <license>
         <name>The Apache Software License, Version 2.0</name>
@@ -36,7 +41,7 @@
 		<artifactId>json</artifactId>
 		<version>20131018</version>
 	</dependency>
-	</dependencies>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
