@@ -39,7 +39,7 @@ import com.heywatch.api.HeyWatchParameters;
 import com.heywatch.api.HeyWatchException;
 import com.heywatch.api.HeyWatchObject;
 
-# login with your HeyWatch API key
+// login with your HeyWatch API key
 HeyWatchClient hw = new HeyWatchClient("k-e4e96eaf314655cb31c78294b2b2bfe7");
 ```
 
