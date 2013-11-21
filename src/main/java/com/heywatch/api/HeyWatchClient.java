@@ -69,7 +69,7 @@ public class HeyWatchClient {
 	 * Create an Object by giving a resource name and parameters
 	 *
 	 * @param resource the resource name: download, job, video, encoded_video, format, robot/job, hls/job, preview/thumbnails, preview/animation, preview/storyboard
-	 * @param parameters an HeyWatchParameters list
+	 * @param params an HeyWatchParameters list
 	 * @return the object info in HeyWatchObject
 	 * @throws HeyWatchException 
 	 */
@@ -92,7 +92,7 @@ public class HeyWatchClient {
 	/**
 	 * Create a Robot Job by giving a path to the instruction file (INI)
 	 *
-	 * @param path to the INI file
+	 * @param iniFile to the INI file
 	 * @return the Robot job info in HeyWatchObject
 	 * @throws HeyWatchException 
 	 */
@@ -116,7 +116,7 @@ public class HeyWatchClient {
 	 *
 	 * @param resource the resource name: format
 	 * @param id the object's ID
-	 * @param parameters an HeyWatchParameters list
+	 * @param params an HeyWatchParameters list
 	 * @return true if updated successfully or false if failed
 	 */
 	public boolean update(String resource, long id, HeyWatchParameters params) {
