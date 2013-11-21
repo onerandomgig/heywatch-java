@@ -99,13 +99,13 @@ public class HeyWatchClient {
 	public HeyWatchObject createRobotJob(String iniFile) throws HeyWatchException {
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(iniFile));
-		    String line, iniContent = "";
-		    while( ( line = reader.readLine() ) != null)
-		    {
-		        iniContent += line+"\n";
-		    }
-		    reader.close();
-		    return create("robot/job", iniContent);
+			String line, iniContent = "";
+			while( ( line = reader.readLine() ) != null)
+			{
+				iniContent += line+"\n";
+			}
+			reader.close();
+			return create("robot/job", iniContent);
 		} catch (java.io.IOException e) {
 			throw new HeyWatchException(e);
 		}
