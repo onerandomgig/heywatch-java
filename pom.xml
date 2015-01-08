@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.heywatch</groupId>
   <artifactId>heywatch</artifactId>
-  <version>0.1.0</version>
+  <version>2.0.0</version>
   <name>HeyWatch Java library</name>
   <description>Encode videos in the cloud with HeyWatch</description>
   <url>http://www.heywatchencoding.com</url>
