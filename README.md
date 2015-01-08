@@ -2,23 +2,7 @@
 
 ## Install
 
-The latest artifacts are published to maven central.
-
-To add HeyWatch into your project, simply add the following to your pom.xml:
-
-``` language-xml
-  <dependencies>
-    <dependency>
-      <groupId>com.heywatch</groupId>
-      <artifactId>heywatch</artifactId>
-      <version>2.0.0</version>
-    </dependency>
-  </dependencies>
-```
-
-Now, run maven:
-
-```mvn clean install```
+Get the code on [Github](http://github.com/heywatch/heywatch-java)
 
 ## Submitting the job
 
